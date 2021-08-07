@@ -700,3 +700,158 @@ footer{
     font-weight: 400;
     line-height: 70px;
 }
+
+/* Blog End  */
+
+/* Blog Details Start */
+#blog-details-container{
+    width: 100%;
+    height: 40rem;
+    background: url(./img/cleaning.jpg) no-repeat;
+    background-size: cover;
+}
+#blog-details-overlay{
+    width: 100%;
+    height: 40rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.blog-details-wrapper{
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 7rem;
+    
+}
+.wrapper-time{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 400;
+    font-style:italic;
+    line-height: 27px;
+
+}
+.blog-details-content{
+    width: 70%;
+    margin-bottom: 10rem;
+}
+.blog-details-content img{
+    float: left;
+    padding-right: 2rem;
+    width: 17rem;
+    height: 11.5rem;
+}
+.blog-details-content p{
+    padding-bottom: 1.5rem;
+    color: rgba(26,26,26,.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-indent: 3rem;
+    text-align: left;
+
+}
+.entry-tags{
+    color: rgba(26, 26, 26, 0.4) !important;
+    text-indent: 0 !important;
+}
+.entry-tags a{
+    color: rgba(26, 26, 26, 0.4)
+}
+.entry-actions{
+    display: flex;
+}
+.entry-actions a{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(26, 26, 26, 0.4);
+    
+}
+.entry-actions span{
+    color: rgba(26, 26, 26, 0.4)
+}
+.ea-1{
+    margin-left: 0.2rem;
+}
+.entry-actions i{
+    
+    color: rgba(26, 26, 26, 0.4);
+    
+}
+.entry-actions i:last-child{
+    margin-left: 2rem;
+}
+.share-action{
+    margin-left: 2rem;
+    
+}
+.like-action{
+    cursor: pointer;
+}
+.share-action:not(.share-toggle){
+    cursor: pointer;
+}
+.older{
+    text-align: right;
+    
+    float: right;
+}
+.older span{
+    color: rgba(26, 26, 26, 0.7);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.older a{
+    color: rgb(61, 153, 145);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+}
+.show-share{
+    visibility: visible !important;
+    border: 1px solid gainsboro;
+}
+.share-toggle{
+    width: 10rem;
+    height: 8rem ;
+    
+    border-radius: 5px;
+    display: flex;
+    visibility: hidden;
+    overflow: hidden;
+    
+    flex-direction: column;
+}
+.share-toggle i:first-child{
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    color: white;
+    background-color: #1b95e0;
+    border-radius: 3px;
+    width: 4rem;
+    height: 1rem;
+}
+.share-toggle i:nth-child(2){
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    color: white;
+    background-color: #365899;
+    border-radius: 3px;
+    width: 4rem;
+    height: 1rem;
+}
+.share-toggle i:last-child{
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0.2rem;
+    color: white;
+    background-color: #0073b1;
+    border-radius: 3px;
+    width: 4rem;
+    height: 1rem;
+}
+
